@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <base href="assets/"> -->
+    <title>Task 1</title>
+</head>
+
+<body>
+    <table border="2px">
+        <caption> Results</caption>
+        <tr>
+            <col width="70px">
+            <th></th>
+            <th>REG NO</th>
+            <th colspan="2">NAME</th>
+
+            <th>PERCENTAGE</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>FIRSTNAME</td>
+            <td>LASTNAME</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">SEM 1</td>
+            <td>1</td>
+            <td>Arun</td>
+            <td>Joseph</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sharon</td>
+            <td>David</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Arjun</td>
+            <td>Venkit</td>
+            <td>95</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="5">SEM 2</td>
+            <td>1</td>
+            <td>Dharshan</td>
+            <td>P</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Srikanth</td>
+            <td>S</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Hemanth</td>
+            <td>B</td>
+            <td>72</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <hr>
+
+    <!--Working Of Video Audio and i Frames-->
+    <h3> Video tag</h3>
+    <video width="200px" height="200px" controls poster="assets/table.png">
+        <source src="assets/wild.mp4" type="video/mp4">
+    </video>
+    <hr>
+    <audio controls autoplay muted>
+        <source src="assets/drums.mp3" type="audio/mp3">
+    </audio>
+    <hr>
+    <iframe src="index.html" height="400px" width="400px"></iframe>
+    <hr>
+    <!--Image map-->
+    <h3>Image map</h3>
+    <img src="assets/IMG1.jpg" alt="This is a image map" title="This is a image map" usemap="#html">
+    <map name="html">
+        <area shape="poly" coords="271,288,270,166,298,207,342,205,351,289,276,290" href="https://en.wikipedia.org/wiki/H" alt="Letter H">
+        <area shape="poly" coords="356,204,387,175,420,200,422,282,374,282" href="https://twitter.com" alt="Letter T">
+        <area shape="poly" coords="430,290,429,203,547,205,557,286" href="https://en.wikipedia.org/wiki/Malaya" alt="Letter M">
+        <area shape="rect" coords="574,288,595,163" href="https://www.goodrx.com/health-topic/mental-health/health-benefits-of-laughter" alt="Letter L">
+    </map>
+    <hr>
+    <!-- Base tag-->
+    <h3>Base Url</h3>
+    <a href="IMG1.jpg">LINK 1</a>
+    <br>
+    <a href="drums.mp3">LINK 2</a>
+    <br>
+    <a href="wild.mp4">LINK 3</a>
+    <br>
+    <hr>
+    <!--Picture tag-->
+    <h3>Picture</h3>
+    <picture>
+        <source media="(min-width:450px)" srcset="assets/IMG1.jpg" height="100px" width="100px">
+        <source media="(min-width:650px)" srcset="assets/monkey.jpg" height="100px" width="100px">
+        <source media="(min-width:750px)" srcset="assets/giraffe.jpg" height="100px" width="100px">
+        <img src="assets/road.jpg" alt="man in mountain " style="width: auto;" height="100px" width="100px">
+    </picture>
+
+
+</body>
+
+
+
+</html>
