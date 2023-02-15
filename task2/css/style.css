@@ -1,0 +1,24 @@
+div{
+    border-style:dashed groove dashed  groove;
+    border-color:red blue ;
+    
+    background-color: darkblue;
+    font-size: large;
+    color: cyan;
+}
+#pretag{
+    color: aqua;
+    font-size: 20px;
+}
+
+.h4tag{
+    outline-color: blue;
+    outline-width: 3px ;
+    outline-style: dotted;
+    border-spacing: 30px;
+    color: aqua;
+}
+h1,pre,div{
+    text-align: center;
+    color: forestgreen;
+}
