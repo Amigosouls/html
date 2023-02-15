@@ -16,6 +16,8 @@ div{
     outline-width: 3px ;
     outline-style: dotted;
     border-spacing: 30px;
+    border-style: dashed;
+    border-width: 5px;
     color: aqua;
 }
 h1,pre,div{
