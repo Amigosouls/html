@@ -1,8 +1,6 @@
 body{
     background-color: #212121;
-    background-image: url("/task3/assets/background.jpg");
-    background:-o-repeating-linear-gradient();
-    background-size:45%;
+    background-image: repeating-linear-gradient(rgb(15, 15, 15), rgb(84, 236, 229) 10%, rgb(209, 111, 196) 20%);
 }
 
 .navbar{
@@ -29,7 +27,6 @@ body{
 }
 .navbar a{
     display: inline-block;
-    border-left: 20px;
     margin: 10px;
     text-align: right;
     font-family: Courier;
@@ -39,11 +36,10 @@ body{
 
 .vernavbar{
     background-color: dodgerblue;
-    width: 15%;
+    width: 20%;
     height: 500px;
     float: left;
  
-    
 }
 .vernavbar h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -65,16 +61,23 @@ body{
 }
 .contents{
     color: antiquewhite;
-    margin-left: 5px;
+    position: absolute;
+    
     width:70%;
     font-family:Cambria;
     float:left;
     background-color: rgb(157, 255, 10);
-    opacity: 0.7;
+    opacity:1;
+}
+.contents p:hover{
+    color: crimson;
+    background-color: aliceblue;
 }
 .contents p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
+    position: relative;
+    margin-left: 10px;
     font-style: oblique;
     font-feature-settings: "c2pc";
     font-display:inherit ;
@@ -85,15 +88,18 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-style: oblique;
+    margin-left: 10px;
     font-feature-settings: "c2pc";
     font-display:inherit ;
     color:rgb(8, 4, 0);
     opacity: 1;
+    text-shadow:-1px 0 rgb(6, 137, 212), 0 1px rgb(8, 54, 206), 3px 0 rgb(223, 5, 107), 0 -1px rgb(13, 169, 216); ;
 }
 .contents h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-style: oblique;
+    margin-left: 10px;
     font-feature-settings: "c2pc";
     font-display:inherit ;
     color:rgb(3, 7, 224);
@@ -114,45 +120,48 @@ body{
     padding-left: 10px;
 }
 .blog{
-    display:flexbox;
-    float:inline-start;
+    display:inline-block;
+    float: left;
     
 }
 .blog table{
     font-size: 30px;
-    table-layout: auto;
     border: 10px;
+    width: 60%;
     border-style: double;
     border-color: rgb(1, 108, 150);
     color: springgreen;
-    margin: 10px;
+    margin: 2px;
 }
 .blog caption{
     background-color: black;
 }
+
 .blog td th{
-    margin: 5px;
+    margin: 2px;
 }
 .updates{
-    height: 450px;
-    width:400px;
-    background-color: hotpink;
+    height: 500px;
+    width:40%;
+    background-color: rgba(32, 11, 226, 0.986);
     display: inline-block;
-    font-family: Impact;
+    font-family: Arial;
     font-stretch: expanded;
     font-weight: 500;
-    color: cyan;
+    color: rgb(255, 0, 0);
+    position: relative;
     
 }
 .updates h2{
-    background-color: rgb(252, 5, 5);
+    background-color: rgb(5, 133, 252);
     scrollbar-highlight-color: aqua;
 }
 .footer{
-    height:60px;
+    height:100%;
     width: 100%;
     background-color: beige;
-    float: inline-start;
+    position: relative;
     text-align: center;
     color: rgb(0, 46, 252);
+    display: inline-block;
 }
