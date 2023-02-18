@@ -155,6 +155,16 @@ body{
     background-color: rgb(5, 133, 252);
     scrollbar-highlight-color: aqua;
 }
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: red;
+    font-family: sans-serif;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
 .footer{
     width: 100%;
     background-color: beige;
