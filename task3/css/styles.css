@@ -65,9 +65,8 @@ body{
     
     width:70%;
     font-family:Cambria;
-    float:left;
     background-color: rgb(157, 255, 10);
-    opacity:1;
+    
 }
 .contents p:hover{
     color: crimson;
@@ -76,7 +75,7 @@ body{
 .contents p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    position: relative;
+    
     margin-left: 10px;
     font-style: oblique;
     font-feature-settings: "c2pc";
@@ -93,7 +92,7 @@ body{
     font-display:inherit ;
     color:rgb(8, 4, 0);
     opacity: 1;
-    text-shadow:-1px 0 rgb(6, 137, 212), 0 1px rgb(8, 54, 206), 3px 0 rgb(223, 5, 107), 0 -1px rgb(13, 169, 216); ;
+    text-shadow:-1px 0 rgb(6, 137, 212), 0 1px rgb(1, 4, 15), 1px 0 rgb(243, 242, 242), 0 -1px rgb(13, 169, 216); ;
 }
 .contents h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -157,11 +156,11 @@ body{
     scrollbar-highlight-color: aqua;
 }
 .footer{
-    height:100%;
     width: 100%;
     background-color: beige;
     position: relative;
     text-align: center;
     color: rgb(0, 46, 252);
     display: inline-block;
+    
 }
